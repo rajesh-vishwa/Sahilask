@@ -1,5 +1,64 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "properties": [
+    {
+      "id": 1,
+      "name": "Purple Bricks",
+      "image": "/images/airpods.jpg",
+      "numberOfBedrooms": 2,
+      "address": "Mansford Street, London E2",
+      "postcode": "E2Y00",
+      "description": "2 rooms flat for sale",
+      "expired": false
+    },
+    {
+      "id": 2,
+      "name": "Red Bricks",
+      "image": "/images/alexa.jpg",
+      "numberOfBedrooms": 3,
+      "address": "Mansford Street, London E2",
+      "postcode": "E2Y20",
+      "description": "3 rooms flat for sale",
+      "expired": true
+    },
+    {
+      "id": 3,
+      "name": "Tulip Height",
+      "image": "/images/camera.jpg",
+      "numberOfBedrooms": 1,
+      "address": "Stanford Street, London E1",
+      "postcode": "E1Z00",
+      "description": "1 bed flat for rent",
+      "expired": false
+    },
+    {
+      "id": 4,
+      "name": "Black Rock",
+      "image": "/images/mouse.jpg",
+      "numberOfBedrooms": 4,
+      "address": "Backerloo Street, London E4",
+      "postcode": "E4Y00",
+      "description": "4 rooms flat for sale",
+      "expired": true
+    },
+    {
+      "id": 5,
+      "name": "Yellow Bricks",
+      "image": "/images/phone.jpg",
+      "numberOfBedrooms": 2,
+      "address": "Mansford Street, London F2",
+      "postcode": "F2Z00",
+      "description": "2 rooms flat for sale",
+      "expired": false
+    },
+    {
+      "id": 1,
+      "name": "Purple Bricks",
+      "image": "/images/playstation.jpg",
+      "numberOfBedrooms": 1,
+      "address": "Mansford Street, London E2",
+      "postcode": "E2Y00",
+      "description": "1 room flat for sale",
+      "expired": true
+    }
+  ]
 }
