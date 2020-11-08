@@ -7,18 +7,18 @@ const Header = () => {
     <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
-          {/* <LinkContainer to="/"> */}
-          <Navbar.Brand>Property App</Navbar.Brand>
-          {/* </LinkContainer> */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <LinkContainer to="/">
+            <Navbar.Brand>Property App</Navbar.Brand>
+          </LinkContainer>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
-              {/* <LinkContainer to="/cart"> */}
-              <Nav.Link>View Listings</Nav.Link>
-              {/* </LinkContainer> */}
-              {/* <LinkContainer to="/cart"> */}
-              <Nav.Link>Expire Listings</Nav.Link>
-              {/* </LinkContainer> */}
+              <LinkContainer to="/">
+                <Nav.Link>View All</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/expire">
+                <Nav.Link>View Expire</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>
