@@ -31,7 +31,7 @@ const PropertyCard: React.FC<TPropertyCardProps> = ({ property }) => {
               </div>
             </Card.Text>
             <Card.Text as="div">
-              <h5>Is Expred? {property.expired ? "Yes" : "No"}</h5>
+              <h3>Is Expred? {property.expired ? "Yes" : "No"}</h3>
             </Card.Text>
           </Card.Body>
         </Col>

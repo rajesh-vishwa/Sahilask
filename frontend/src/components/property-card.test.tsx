@@ -3,6 +3,7 @@ import React from "react";
 import PropertyCard from "./property-card.component";
 
 import { shallow } from "enzyme";
+import toJson from "enzyme-to-json";
 import { IProperty } from "../models/property.model";
 
 describe("<PropertyCard />", () => {
@@ -18,7 +19,7 @@ describe("<PropertyCard />", () => {
   };
   const wrapper = shallow(<PropertyCard property={propertyProps} />);
   it("should match the snapshot ", () => {
-    expect(wrapper).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 
   it("should accepts property props", () => {

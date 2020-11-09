@@ -1,3 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<PropertyCard /> should match the snapshot  1`] = `ShallowWrapper {}`;
+exports[`<PropertyCard /> should match the snapshot  1`] = `
+<Card
+  body={false}
+  className="my-3 p-3 rounded"
+>
+  <Row
+    noGutters={false}
+  >
+    <Col>
+      <CardImg
+        src="/images/airpods.jpg"
+        variant={null}
+      />
+    </Col>
+    <Col>
+      <CardBody>
+        <CardTitle
+          as="div"
+        >
+          <h1>
+            Purple Bricks
+          </h1>
+        </CardTitle>
+        <CardText
+          as="div"
+        >
+          Number of bed: 
+          2
+        </CardText>
+        <CardText
+          as="div"
+        >
+          Address: 
+          Mansford Street, London E2
+          , 
+          E2Y00
+        </CardText>
+      </CardBody>
+      <CardBody>
+        <CardText
+          as="div"
+        >
+          <div
+            className="my-3"
+          >
+            <h3>
+              2 rooms flat for sale
+            </h3>
+          </div>
+        </CardText>
+        <CardText
+          as="div"
+        >
+          <h3>
+            Is Expred? 
+            No
+          </h3>
+        </CardText>
+      </CardBody>
+    </Col>
+  </Row>
+</Card>
+`;
